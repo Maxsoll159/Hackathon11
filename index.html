@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hola">
+      <h2>CURSOS GRATIS</h2>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        id="carrito"
+      >
+        Ver Carrito
+      </button>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" id="infoCarrito">
+              <p name="ti"></p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary" id="eliminarTodo">
+                Eliminar Todo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="padre">
+      <div class="hijo">
+        <header>
+          <h1>Programacion</h1>
+        </header>
+        <section>
+          <img src="./IMG/img.jpg" width="300" id="imagen" id="wens" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1300</p>
+        </section>
+        <footer>
+          <button class="comprar btn btn-success">Launch demo modal</button>
+        </footer>
+      </div>
+
+      <div class="hijo">
+        <header>
+          <h1>Matematicas</h1>
+        </header>
+        <section>
+          <img src="./IMG/img1.jpg" width="200" id="imagen" id="wens" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1352</p>
+        </section>
+        <footer>
+          <button class="comprar">Launch demo modal</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>Comunicacion</h1>
+        </header>
+        <section>
+          <img src="" width="300" id="wens" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>13150</p>
+        </section>
+        <footer>
+          <button class="comprar" x>Launch demo modal</button>
+        </footer>
+      </div>
+
+      <div class="hijo">
+        <header>
+          <h1>Fisica</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1350</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>Quimica</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1360</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>CSS+JS</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1980</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>C#</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>160</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>C++</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>190</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+      <div class="hijo">
+        <header>
+          <h1>Title 1</h1>
+        </header>
+        <section>
+          <img src="" width="300" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium iure aliquam tempore alias! Aut facere quod magni sunt
+            neque laboriosam minima assumenda cumque atque? Porro consectetur
+            harum similique rem!
+          </p>
+          <p>1800</p>
+        </section>
+        <footer>
+          <button class="comprar">Comprar Aqui</button>
+        </footer>
+      </div>
+    </div>
+    <p id="pe"></p>
+
+    <!--
+        MODAL
+    -->
+
+    <style>
+      h1 {
+        font-size: 20px;
+      }
+      .conten {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .contenhijo {
+        max-width: 150px;
+      }
+      #padre {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 950px;
+        margin: 0 auto;
+        justify-content: space-between;
+      }
+      .hijo {
+        max-width: 300px;
+        border: 1px solid black;
+        margin-top: 30px;
+      }
+      .hola {
+        background-color: aqua;
+        height: 100px;
+      }
+      .modal-content {
+        height: 500px;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+    <script src="app.js"></script>
+  </body>
+</html>
